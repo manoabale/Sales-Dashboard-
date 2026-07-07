@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sales Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Sales Dashboard</h2>
+    <ul>
+      <li>🏠 Overview</li>
+      <li>📈 Reports</li>
+      <li>🛒 Orders</li>
+      <li>👥 Customers</li>
+    </ul>
+  </aside>
+
+  <main class="main-content">
+    <header>
+      <h1>Sales Overview</h1>
+      <button id="refresh">Refresh</button>
+    </header>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Total Sales</h3>
+        <p id="total-sales">$45,230</p>
+      </div>
+      <div class="card">
+        <h3>Orders</h3>
+        <p id="orders-count">1,245</p>
+      </div>
+      <div class="card">
+        <h3>Customers</h3>
+        <p id="customers-count">890</p>
+      </div>
+    </section>
+
+    <section class="chart">
+      <canvas id="salesChart"></canvas>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
