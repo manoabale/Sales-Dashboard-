@@ -54,3 +54,18 @@ It includes summary cards, a sidebar navigation, and interactive charts powered 
 ---
 
 ## 📂 Project Structure
+## 📂 Project Structure
+
+
+sales-dashboard/ │── index.html      # Main HTML file │── style.css       # Stylesheet │── script.js       # JavaScript logic
+
+
+---
+
+## ⚡ Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/manoabale/sales-dashboard.git
+cd sales-dashboard
+
